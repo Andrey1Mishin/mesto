@@ -1,0 +1,9 @@
+.popup__input_edit-job {
+  margin-top: 168px;      
+}
+
+@media screen and (max-width: 550px) {
+  .popup__input_edit-job {  
+      margin-top: 179px;
+  }
+} 

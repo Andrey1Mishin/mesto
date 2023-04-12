@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <link rel="stylesheet" href="../mesto/pages/index.css"> 
+  <title>mesto</title>
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <img class="header__logo" src="../mesto/images/Logo.svg" alt="лого">
+        </header>
+
+        <main class="content">
+            <section class="profile">
+                
+                    <div class="profile__page">
+                        <img class="profile__photo" src="../mesto/images/ava.jpg" alt="дед">
+
+                        <div class="profile__data">
+                            <div class="profile__top">                        
+                                <h1 class="profile__name">Fernando Alonso</h1>
+                                <button class="profile__edit-button"></button>
+                            </div>
+                            <h2 class="profile__job">F1 World Champion</h2>
+                        </div>                                  
+                    </div>                    
+                    <button class="profile__add-button"></button>                                                 
+            </section>
+
+            <section class="photo-grid">
+                <div class="photo-grid__card">
+                    <img class="photo-grid__image" src="../mesto/images/australia.jpg" alt="фото" data-type="auto">
+                    <div class="photo-grid__bottom">
+                        <h3 class="photo-grid__title">Australia '23</h3>   
+                        <button class="photo-grid__like"></button>
+                    </div>          
+                </div>
+                <div class="photo-grid__card">
+                    <img class="photo-grid__image" src="../mesto/images/singapore.jpg" alt="фото" data-type="auto">
+                    <div class="photo-grid__bottom">
+                        <h3 class="photo-grid__title">Singapore '22</h3>   
+                        <button class="photo-grid__like"></button>
+                    </div>          
+                </div>
+                <div class="photo-grid__card">
+                    <img class="photo-grid__image" src="../mesto/images/monaco.jpg" alt="фото" data-type="auto">
+                    <div class="photo-grid__bottom">
+                        <h3 class="photo-grid__title">Monaco '22</h3>   
+                        <button class="photo-grid__like"></button>
+                    </div>          
+                </div>
+                <div class="photo-grid__card">
+                    <img class="photo-grid__image" src="../mesto/images/barcelona.jpg" alt="фото" data-type="auto">
+                    <div class="photo-grid__bottom">
+                        <h3 class="photo-grid__title">Barcelona '19</h3>   
+                        <button class="photo-grid__like"></button>
+                    </div>          
+                </div>
+                <div class="photo-grid__card">
+                    <img class="photo-grid__image" src="../mesto/images/malaysia.jpg" alt="фото" data-type="auto">
+                    <div class="photo-grid__bottom">
+                        <h3 class="photo-grid__title">Malaysia '17</h3>   
+                        <button class="photo-grid__like"></button>
+                    </div>          
+                </div>
+                <div class="photo-grid__card">
+                    <img class="photo-grid__image" src="../mesto/images/belgium.jpg" alt="фото" data-type="auto">
+                    <div class="photo-grid__bottom">
+                        <h3 class="photo-grid__title">Belgium '16</h3>   
+                        <button class="photo-grid__like"></button>
+                    </div>          
+                </div>
+            </section>
+
+        </main>
+        <footer class="footer">
+            &copy; 2023 Mesto Formula 1
+        </footer>
+        <div class="popup">
+            <div class="popup__container">
+                <button class="popup__container_close-button"></button>
+                <h4 class="popup__container_title">Редактировать профиль</h4>
+                <form class="popup__form">
+                    <input type="text" class="popup__input popup__input_edit-name" id="name" name="name" placeholder="Ваше имя" required maxlength="35">
+                    <input type="text" class="popup__input popup__input_edit-job" id="job" name="job" placeholder="Пара слов о себе" required maxlength="40">
+                    <button class="popup__container_save-button">Сохранить</button>
+                </form>
+                
+            </div>
+        </div>    
+    </div>
+    <script src="../mesto/scrips.js"></script>
+</body>
+</html>

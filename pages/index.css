@@ -1,0 +1,39 @@
+@import url(../../mesto/vendor/normalize.css);
+@import url(../../mesto/vendor/fonts.css);
+
+@import url(../../mesto/blocks/page/page.css);
+
+
+@import url(../../mesto/blocks/header/header.css);
+@import url(../../mesto/blocks/header/__logo/header__logo.css);
+
+@import url(../../mesto/blocks/profile/profile.css);
+@import url(../../mesto/blocks/profile/__page/profile__page.css);
+@import url(../../mesto/blocks/profile/__photo/profile__photo.css);
+@import url(../../mesto/blocks/profile/__data/profile__data.css);
+@import url(../../mesto/blocks/profile/__top/profile__top.css);
+@import url(../../mesto/blocks/profile/__name/profile__name.css);
+@import url(../../mesto/blocks/profile/__edit-button/profile__edit-button.css);
+@import url(../../mesto/blocks/profile/__job/profile__job.css);
+@import url(../../mesto/blocks/profile/__add-button/profile__add-button.css);
+
+@import url(../../mesto/blocks/photo-grid/photo-grid.css);
+@import url(../../mesto/blocks/photo-grid/__card/photo-grid__card.css);
+@import url(../../mesto/blocks/photo-grid/__image/photo-grid__image.css);
+@import url(../../mesto/blocks/photo-grid/__bottom/photo-grid__bottom.css);
+@import url(../../mesto/blocks/photo-grid/__title/photo-grid__title.css);
+@import url(../../mesto/blocks/photo-grid/__like/photo-grid__like.css);
+
+@import url(../../mesto/blocks/footer/footer.css);
+
+@import url(../../mesto/blocks/popup/popup.css);
+@import url(../../mesto/blocks/popup/__opened/popup__opened.css);
+@import url(../../mesto/blocks/popup/__container/popup__container.css);
+@import url(../../mesto/blocks/popup/__container_close-button/popup__container_close-button.css);
+@import url(../../mesto/blocks/popup/__container_title/popup__container_title.css);
+@import url(../../mesto/blocks/popup/__form/popup__form.css);
+@import url(../../mesto/blocks/popup/__input/popup__input.css);
+@import url(../../mesto/blocks/popup/__input_edit-name/popup__input_edit-name.css);
+@import url(../../mesto/blocks/popup/__input_edit-job/popup__input_edit-job.css);
+@import url(../../mesto/blocks/popup/__container_save-button/popup__container_save-button.css);
+

@@ -1,0 +1,16 @@
+.photo-grid__title {
+  display: inline-block;
+  color: black;    
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29.05px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 25px;
+  margin-bottom: 31px;
+  margin-left: 21px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 70%;
+}
