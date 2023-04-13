@@ -1,12 +1,14 @@
 .profile__top {
     display: flex;
-    max-height: 39px;
+    max-height: 40px;
+    height: min-content;
     width: fit-content;
     margin-right: 50px;
 }
 
 @media screen and (max-width: 650px) {
     .profile__top {        
-        margin: auto;       
+        margin: auto;    
+        max-height: 26px;   
     }
   }  
